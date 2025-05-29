@@ -1,4 +1,4 @@
-import SwiftUI
+/*import SwiftUI
 
 struct ChatView: View {
     let propertyId: Int
@@ -615,3 +615,4 @@ struct MessageView: View {
         return dateString
     }
 }
+*/

@@ -13,7 +13,7 @@ struct SelectRoleView: View {
                     
                     VStack(spacing: 0) {
                         ZStack(alignment: .center) {
-                            Text("Realstate")
+                            Text("DocNow")
                                 .font(.system(size: 40, weight: .heavy))
                                 .fontWeight(.black)
                                 .foregroundColor(.black)
@@ -33,7 +33,7 @@ struct SelectRoleView: View {
                         ZStack(alignment: .top) {
                             // Лэндлорд (синий блок)
                             VStack(spacing: 20) {
-                                Text("Я арендодатель")
+                                Text("Я доктор")
                                     .font(.system(size: 18, weight: .medium))
                                     .foregroundColor(.black)
                                 
@@ -60,7 +60,7 @@ struct SelectRoleView: View {
 
                             // Тенант (оранжевый блок)
                             VStack(spacing: 12) {
-                                Text("Я арендатор")
+                                Text("Я пациент")
                                     .font(.system(size: 18, weight: .medium))
                                     .foregroundColor(.black)
                                 
