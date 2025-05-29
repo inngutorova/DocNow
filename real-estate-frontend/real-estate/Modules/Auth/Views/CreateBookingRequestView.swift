@@ -1,4 +1,4 @@
-import SwiftUI
+/*import SwiftUI
 
 struct CreateBookingRequestView: View {
     @EnvironmentObject var authManager: AuthManager
@@ -119,3 +119,4 @@ struct AlertItem: Identifiable {
     let message: String
     let shouldDismiss: Bool
 }
+*/

@@ -16,8 +16,8 @@ struct ProfileView: View {
     private var roleDescription: String {
         guard let role = authManager.currentUser?.role else { return "Пользователь" }
         switch role.lowercased() {
-        case "landlord": return "Арендодатель"
-        case "tenant": return "Арендатор"
+        case "landlord": return "Доктор"
+        case "tenant": return "Пациент"
         case "admin": return "Администратор"
         default: return "Пользователь"
         }
@@ -68,26 +68,26 @@ struct ProfileView: View {
                     VStack(spacing: 0) {
                         MenuItem(
                             icon: "list.bullet.rectangle",
-                            title: "Мои бронирования",
+                            title: "Мои заявки",
                             destination: EmptyView()
                         )
                         
                         Divider().padding(.leading, 56)
                         
-                        NavigationLink(destination: PropertyView()) {
+                        NavigationLink(destination: EmptyView()) {
                             MenuItemContent(
                                 icon: "house.fill",
-                                title: "Недвижимость",
+                                title: "Мониторинг здоровья",
                                 isDestructive: false
                             )
                         }
                         
                         Divider().padding(.leading, 56)
                         
-                        NavigationLink(destination: FavoritesView()) {
+                        NavigationLink(destination: EmptyView()) {
                             MenuItemContent(
                                 icon: "heart",
-                                title: "Избранное",
+                                title: "Анализ снимков",
                                 isDestructive: false
                             )
                         }

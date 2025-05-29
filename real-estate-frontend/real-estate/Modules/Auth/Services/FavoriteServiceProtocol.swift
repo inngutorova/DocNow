@@ -1,4 +1,4 @@
-import Foundation
+/* import Foundation
 
 protocol FavoriteServiceProtocol {
     func toggleFavorite(propertyId: Int) async throws -> Bool
@@ -153,3 +153,4 @@ class FavoriteService: FavoriteServiceProtocol {
     }
 }
 
+*/

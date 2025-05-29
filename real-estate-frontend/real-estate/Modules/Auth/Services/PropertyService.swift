@@ -1,4 +1,4 @@
-import Foundation
+/* import Foundation
 
 protocol PropertyServiceProtocol {
     func fetchProperties() async throws -> [Property]
@@ -124,3 +124,4 @@ enum PropertyError: Error, LocalizedError {
         }
     }
 }
+*/

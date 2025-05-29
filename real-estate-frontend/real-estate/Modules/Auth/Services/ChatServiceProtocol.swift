@@ -1,4 +1,4 @@
-import Foundation
+/*import Foundation
 
 
 protocol ChatServiceProtocol {
@@ -149,3 +149,4 @@ enum ChatError: Error {
         }
     }
 }
+*/

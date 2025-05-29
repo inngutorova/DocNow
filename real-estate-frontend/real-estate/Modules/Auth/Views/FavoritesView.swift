@@ -1,4 +1,4 @@
-import SwiftUI
+/*import SwiftUI
 
 struct FavoritesView: View {
     @EnvironmentObject var authManager: AuthManager
@@ -76,3 +76,4 @@ struct FavoritesView: View {
     }
 }
 
+*/

@@ -1,4 +1,4 @@
-import Foundation
+/*import Foundation
 
 class BookingService {
     private let baseURL = "http://localhost:3000/api"
@@ -77,3 +77,4 @@ class BookingService {
 struct ErrorResponse: Decodable {
     let message: String
 }
+*/

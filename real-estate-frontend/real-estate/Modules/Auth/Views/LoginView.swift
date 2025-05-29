@@ -26,7 +26,7 @@ struct LoginView: View {
                     VStack(spacing: 0) {
                         // Логотип и заголовок
                         ZStack(alignment: .center) {
-                            Text("Realstate")
+                            Text("DocNow")
                                 .font(.system(size: 40, weight: .heavy))
                                 .fontWeight(.black)
                                 .foregroundColor(.black)
